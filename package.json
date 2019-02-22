@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typedoc": ".\\node_modules\\.bin\\typedoc --options typedoc.json . --project . --tsconfig ./tsconfig.json",
+    "type2docfx": ".\\node_modules\\.bin\\type2docfx api.json yml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typedoc": "0.14.2",
+    "typedoc-default-themes": "0.5.0",
+    "typedoc-plugin-external-module-name": "2.0.0"
+  },
+  "devDependencies": {
+    "type2docfx": "0.9.114"
+  }
+}

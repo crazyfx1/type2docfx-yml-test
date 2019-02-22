@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: DMS.ButtonControl
+    name: ButtonControl
+    fullName: ButtonControl
+    children:
+      - DMS.ButtonControl.childMethod
+    langs:
+      - typeScript
+    type: class
+    summary: Button
+    extends:
+      name: DMS.Control
+    package: DMS
+  - uid: DMS.ButtonControl.childMethod
+    name: childMethod()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function childMethod()
+      parameters: []
+      return:
+        type:
+          - string
+    package: DMS
+references:
+  - uid: DMS.Control
+    name: Control
+    spec.typeScript:
+      - name: Control
+        fullName: Control
+        uid: DMS.Control

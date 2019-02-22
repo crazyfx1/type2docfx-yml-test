@@ -1,0 +1,266 @@
+{
+	"id": 0,
+	"name": "DMS",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 5,
+			"name": "\"ButtonControl\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "C:/Users/m.pum.CUBIDO/Desktop/test/ButtonControl.ts",
+			"children": [
+				{
+					"id": 6,
+					"name": "ButtonControl",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Button",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.2.0\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 7,
+							"name": "childMethod",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 8,
+									"name": "childMethod",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"tags": [
+											{
+												"tag": "example",
+												"text": "\n```JavaScript\nvar button = new ButtonControl();\nbutton.childMethod();\n```\n"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "ButtonControl.ts",
+									"line": 16,
+									"character": 15
+								}
+							]
+						},
+						{
+							"id": 9,
+							"name": "parentMethod",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 10,
+									"name": "parentMethod",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "Control.parentMethod",
+										"id": 3
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "Control.ts",
+									"line": 7,
+									"character": 16
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "Control.parentMethod",
+								"id": 3
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								7,
+								9
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "ButtonControl.ts",
+							"line": 7,
+							"character": 26
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Control",
+							"id": 2
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						6
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "ButtonControl.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "\"Control\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "C:/Users/m.pum.CUBIDO/Desktop/test/Control.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "Control",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "BaseClass",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 3,
+							"name": "parentMethod",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 4,
+									"name": "parentMethod",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "Control.ts",
+									"line": 7,
+									"character": 16
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								3
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Control.ts",
+							"line": 5,
+							"character": 20
+						}
+					],
+					"extendedBy": [
+						{
+							"type": "reference",
+							"name": "ButtonControl",
+							"id": 6
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "Control.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				5,
+				1
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+- uid: DMS
+  name: DMS
+  items:
+    - uid: DMS.ButtonControl
+      name: ButtonControl
+      items: []
+    - uid: DMS.Control
+      name: Control
+      items: []

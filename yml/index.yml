@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: DMS
+    name: DMS
+    summary: ''
+    children:
+      - DMS.ButtonControl
+      - DMS.Control
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: DMS.ButtonControl
+    name: ButtonControl
+  - uid: DMS.Control
+    name: Control

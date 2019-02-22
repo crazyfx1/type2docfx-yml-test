@@ -1,0 +1,21 @@
+{
+    "mode": "modules",
+    "json": "api.json",
+    "out": "doc",
+    "name": "DMS",
+    "hideGenerator": false,
+    "ignoreCompilerErrors": "true",
+    "experimentalDecorators": "true",
+    "emitDecoratorMetadata": "true",
+    "target": "es5",
+    "moduleResolution": "node",
+    "preserveConstEnums": "true",
+    "stripInternal": "true",
+    "includeDeclarations": true,
+    "suppressExcessPropertyErrors": "true",
+    "suppressImplicitAnyIndexErrors": "true",
+    "module": "commonjs",
+    "exclude": "**/+(Test|node_modules)/**",
+    "excludeNotExported": true,
+    "excludePrivate": true
+  }
